@@ -1,0 +1,85 @@
+
+body {
+  /* overflow-x: hidden; */
+  background-color: #0c111b;
+}
+.header {
+    height: 70px;
+    width:100%;
+    background: #263f61;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+}
+@media only screen and (max-width:600px) {
+  .header{
+    background: #263f61; 
+  display: flex;
+  height: 85px;
+  flex-direction: column;
+  }
+  div > .input{
+    position: absolute;
+    width: 330px;
+    height: 35px;
+  margin-top: -10px;
+    margin-left: -160px;
+  }
+  Nav > .logo{
+    margin-left: -175px;
+    width: 150px;
+    height: 40px;
+  }
+ div > .new-btn{
+left: 170px;
+width: 40px;
+top:-10px;
+height: 35px;
+background: linear-gradient(180deg, #FF9966 0%, #FF5E62 100%);
+
+
+  }
+  i{
+    display: overlay;
+    margin-top: -20px; 
+    
+  }
+}
+
+.logo {
+  width: 179px;
+  height: 44px;
+  margin-left: 80px; 
+}
+
+.input{  
+  width: 424px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+input::placeholder {
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 119px;
+  height: 50px;
+  margin-top: 8px;
+  padding-left: 8px;
+  color: #ffffff;
+  
+}
+.new-btn{
+position: relative;
+top: -3px;
+left: -49px;
+width: 48px;
+height: 44px;
+background: linear-gradient(180deg, #FF9966 0%, #FF5E62 100%);
+}
